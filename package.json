@@ -2,12 +2,12 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "eCommerce fullstack application",
-  "main": "_unknown_",
+  "main": "./client/src/",
   "scripts": {
-    "i": "concurrently \"cd server && npm install\" \"cd client && npm install\"",
-    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run start\"",
-    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
-    "build": "concurrently \"cd server && npm build\" \"cd client && npm build\""
+    "i": "concurrently \"cd server && npm i\" \"cd client && npm i\"",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && set PORT=5000 && react-scripts start\"",
+    "start": "concurrently \"cd server && npm start\" \"cd client && set PORT=5000 && react-scripts start\"",
+    "build": "concurrently \"cd server && npm build\" \"cd client && react-scripts build\""
   },
   "keywords": [],
   "author": "Code028",
