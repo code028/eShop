@@ -1,0 +1,9 @@
+Da se napravi konekcija sa bazom i baza []
+Instalirati mongoose []
+Da se napravi model za usera []
+Da se napravi/dovrsi register za usera []
+
+Bonus:
+Da se napravi login za usera []
+
+TODO: Izmeni {...req.body} na req.body u user controller! 

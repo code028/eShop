@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "eCommerce fullstack application",
+  "main": "_unknown_",
+  "scripts": {
+    "i": "concurrently \"cd server && npm install\" \"cd client && npm install\"",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run start\"",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "build": "concurrently \"cd server && npm build\" \"cd client && npm build\""
+  },
+  "keywords": [],
+  "author": "Code028",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
